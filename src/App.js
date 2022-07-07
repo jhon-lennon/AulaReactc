@@ -1,13 +1,11 @@
 import React from "react";
-import Texto from "./components/Texto";
-import Coments from "./components/Coments";
-import ClientesDados from "./components/ClientesDados";
+import ComponentePai from "./components/ComponentePai";
 
 function App(){
 
     return(
         <div>
-         <ClientesDados></ClientesDados>
+         <ComponentePai titulo="pai" texto="componente pai"></ComponentePai>
         </div>
     )
 }
