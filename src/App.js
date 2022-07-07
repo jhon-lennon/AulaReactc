@@ -1,17 +1,13 @@
 import React from "react";
 import Texto from "./components/Texto";
 import Coments from "./components/Coments";
+import ClientesDados from "./components/ClientesDados";
 
 function App(){
 
     return(
         <div>
-            <h1>Comentarios</h1>
-            <Coments titulo="coment um" autor="jhon"/>
-            <Coments titulo="coment dois" autor="livia"/>
-            <Coments titulo="coment tres" autor="amanda"/>
-
-
+         <ClientesDados></ClientesDados>
         </div>
     )
 }
